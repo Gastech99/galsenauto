@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>galsenauto</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div class="nav container">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <a href="#" class="logo"> GALSEN<span>AUTO</span></a>
+        <ul class="navbar">
+          <li><a href="#home" class="active">Accueil</a></li>
+          <li><a href="#cars">Cars</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="bx bx-search" id="search-icon"></i>
+          <li><a href="#login">Login</a></li>
+          <div class="search-box container">
+            <input type="text" name="" id="" placeholder="Rechercher" />
+          </div>
+        </ul>
+      </div>
+    </header>
+    <!-- Section Home -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h1>
+          We have Everything <br />
+          your <span>car </span>head
+        </h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur <br />
+          adipisicing elit. Minus unde hic explicabo eveniet
+        </p>
+        <a href="#" class="btn">Découvrir</a>
+      </div>
+    </section>
+    <!-- Section Cars -->
+    <section class="cars" id="cars">
+      <div class="heading">
+        <span>Tous les cars</span>
+        <h2>Nous avons plusieurs types de cars</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur <br />
+          adipisicing elit. Minus unde hic explicabo eveniet
+        </p>
+      </div>
+      <div class="cars-container container">
+        <div class="box">
+          <img src="./assets/img/20240528_170513.jpg" alt="img1" />
+          <h2>Peugeot</h2>
+        </div>
+        <div class="box">
+          <img src="./assets/img/peugeot-208-allure.jpg" alt="img3" />
+          <h2>Peugeot 208</h2>
+        </div>
+        <div class="box">
+          <img src="./assets/img/peugeot-308.jpg" alt="img4" />
+          <h2>Peugeot 308</h2>
+        </div>
+        <div class="box">
+          <img src="./assets/img/peugeot-508.jpg" alt="img5" />
+          <h2>Peugeot 508</h2>
+        </div>
+        <div class="box">
+          <img src="./assets/img/polestar-2.jpg" alt="img6" />
+          <h2>Polestar 2</h2>
+        </div>
+        <div class="box">
+          <img src="./assets/img/ligier.png" alt="img2" />
+          <h2>LIGIER</h2>
+        </div>
+      </div>
+    </section>
+    <!-- Section About -->
+    <section class="about container" id="about">
+      <div class="about-img">
+        <img src="./assets/img/bg.png" alt="ac" />
+      </div>
+      <div class="about-text">
+        <span>A propos de nous</span>
+        <h2>
+          Des cars à <br />
+          moindre prix
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo
+          repudiandae eos? Voluptate hic sit minima nemo autem molestias quis,
+          illo harum reiciendis quod provident, animi consectetur suscipit
+          laudantium ad!
+        </p>
+        <a href="#" class="btn" style="margin-top: 150px">Voir plus</a>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-6">
+            <div class="contact-form">
+              <h2 class="text-dark">Contact</h2>
+              <form action="#">
+                <div class="row gy-4 gx-3">
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label class="form-label">Name</label>
+                      <input type="text" class="form-control" name="name" />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label class="form-label">Mail</label>
+                      <input type="email" class="form-control" name="email" />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label class="form-label">Message</label>
+                      <textarea
+                        name="message"
+                        rows="3"
+                        class="form-control"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-5 ms-auto col-xl-4">
+            <div class="pb-5 d-none d-md-block">
+              <img src="./assets/img/contact.jpg" alt="" class="w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-container container">
+        <div class="footer-box">
+          <a href="#" class="logo">Galsen<span>auto</span></a>
+          <div class="social">
+            <a href="#linkedin"><i class="bx bxl-linkedin"></i></a>
+            <a href="#twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#facebook"><i class="bx bxl-facebook"></i></a>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h3>Page</h3>
+          <a href="#home">Accueil</a>
+          <a href="#cars">Cars</a>
+          <a href="#about">A propos</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-box">
+          <h3>Legal</h3>
+          <a href="#privacy">Privacy</a>
+          <a href="#refund">Refund policy</a>
+          <a href="#cookies">Cookies policy</a>
+        </div>
+        <div class="footer-box">
+          <h3>Regions</h3>
+          <a href="#dakar">Dakar</a>
+          <a href="#thies">Thies</a>
+          <a href="#saint-louis">Saint-Louis</a>
+        </div>
+      </div>
+    </section>
+    <div class="copyright">
+      <p>&copy; Tous droits réservé</p>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
