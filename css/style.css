@@ -384,3 +384,114 @@ header{
         padding: 15px;
     }
 }
+
+/* Ordinateurs portables (écrans max de 1200px) */
+@media (max-width: 1200px) {
+    .home-text h1 {
+      font-size: 2rem;
+    }
+  
+    .about-text h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Tablettes (écrans max de 768px) */
+  @media (max-width: 768px) {
+    /* Ajustements pour la barre de navigation */
+    .nav {
+      padding: 10px 15px;
+    }
+  
+    /* Centrer le texte de la page d'accueil */
+    .home-text {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .home-text h1 {
+      font-size: 1.8rem;
+    }
+  
+    /* Réduire la taille des boutons */
+    .btn {
+      padding: 8px 20px;
+    }
+  
+    /* Ajuster les sections à une colonne */
+    .about, .cars-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* Mobiles (écrans max de 576px) */
+  @media (max-width: 576px) {
+    /* Réduire les marges pour les petits écrans */
+    .container {
+      padding: 0 10px;
+    }
+  
+    /* Réduire la taille du texte */
+    .home-text h1 {
+      font-size: 1.5rem;
+    }
+  
+    .home-text p {
+      font-size: 0.875rem;
+    }
+  
+    /* Réduire la taille des images des cars */
+    .cars-container .box {
+      height: 150px;
+    }
+  
+    /* Ajustements pour la section contact */
+    .contact-form .form-control {
+      padding: 0.5rem;
+    }
+  
+    /* Empiler les éléments dans le footer */
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    /* Lorsque le menu est caché, il est en display none */
+    .navbar {
+      display: none;
+      flex-direction: column;
+      background-color: var(--bg-color);
+    }
+  
+    /* Lorsqu'on clique sur le menu (via JS), il devient visible */
+    .navbar.active {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .btn {
+      font-size: 0.875rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home {
+      min-height: 500px;
+    }
+  
+    .section {
+      padding: 2rem 0;
+    }
+  }
+  
